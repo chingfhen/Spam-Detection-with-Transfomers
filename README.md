@@ -1,5 +1,6 @@
 # Spam-Detection-with-Transfomers
-I attempted to solve the spam detection problem and conducted various experiments to derive insights
+This project used a combination of feature engineering and BERT to achieve an F1 score of 0.97 in predicting spam
+
 Insights:
   1. Fine tuning on **paraphrased spam may hurt performance** because the paraphrased emails may have their meaning altered detrimentally
-  2. **Concatenating predictive features as string to the "text" improves further improves performance of BERT!**
+  2. **Concatenating engineered features as input text further improves performance of BERT!**
